@@ -55,7 +55,8 @@
     "clean": "rimraf .tmp && mkdirp .tmp/public",
     "lift": "sails lift",
     "debug": "node --inspect app.js ",
-    "postinstall": "rm -rf .tmp && npm run build && node app.js"
+    "heroku-prebuild": "rm -rf .tmp && npm install npm run build",
+    "mystart": "node app.js"
   },
   "main": "app.js",
   "author": "upnext",
