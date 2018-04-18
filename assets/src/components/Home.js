@@ -12,7 +12,7 @@ const Home = () => {
     <div>
       <PrettyContainer>
 
-        <PrettyHeader> UpNext </PrettyHeader>
+        <PrettyHeader> UpNexti </PrettyHeader>
 
         <PrettyImage>
           <img src={homeImage} alt="by Yolanda Sun on Unsplash" />
