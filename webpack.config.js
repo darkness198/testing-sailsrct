@@ -6,7 +6,8 @@ module.exports = {
   },
   output: {
     path: __dirname + '/.tmp/public',
-    filename: 'bundle.js'
+    filename: '[name].bundle.[chunkhash].js',
+    chunkFilename: '[name].[chunkhash].js'
   },
   module: {
     rules: [
@@ -56,7 +57,8 @@ module.exports = {
 
   plugins: [
     new HtmlWebpackPlugin({
-      template: 'assets/src/index.html'
+      template: 'assets/src/index.html',
+      hash: true
     })
   ]
 };
