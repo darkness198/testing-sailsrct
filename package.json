@@ -56,7 +56,7 @@
     "lift": "sails lift",
     "debug": "node --inspect app.js ",
     "mystart": "rm -rf .tmp && npm run build && node app.js",
-    "heroku-postbuild": "rm -rf .tmp && npm run build && node app.js"
+    "heroku-postbuild": "rm -rf .tmp && npm run build"
   },
   "main": "app.js",
   "author": "upnext",
