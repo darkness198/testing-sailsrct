@@ -19,7 +19,7 @@ import SignIn from './userUtils/SignIn';
 import Settings from './userUtils/Settings';
 
 class SideBar extends Component {
-  //state = { visible: true }
+  // state = { visible: true };
   constructor(props) {
     super(props);
     this.state = {
