@@ -57,7 +57,9 @@
     "debug": "node --inspect app.js ",
     "heroku-prebuild": "npm run clean",
     "heroku-postbuild": "rm -rf .tmp && npm install && npm run build",
-    "mystart": "node app.js"
+    "mystart": "node app.js",
+    "test":
+      "node ./node_modules/supertest test/lifecycle.test.js test/integration/**/*.test.js && jest"
   },
   "main": "app.js",
   "author": "upnext",
