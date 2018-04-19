@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div>
       <PrettyContainer>
-        <PrettyHeader> UpNext </PrettyHeader>
+        <PrettyHeader> UpNext CS8 </PrettyHeader>
 
         <PrettyImage>
           <img src={homeImage} alt="by Yolanda Sun on Unsplash" />
